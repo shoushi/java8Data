@@ -96,6 +96,7 @@ public class Main {
         }
 
         //时间格式转化为string
+        //testgit
         DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss");
         String dataTime=LocalDateTime.now().format(formatter);
         System.out.println(dataTime);
